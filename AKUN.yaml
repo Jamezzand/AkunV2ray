@@ -1,5 +1,5 @@
 proxies:
-  - name: VIDIO
+  - name: VIDIO BARU
     server: quiz.staging.vidio.com
     port: 80
     type: vmess
@@ -11,7 +11,7 @@ proxies:
     servername: 
     network: ws
     ws-opts:
-      path: /sshkit/clash/674e8cdad4b8f/
+      path: /sshkit/Github/674f8d093307f/
       headers:
         Host: lb.vhax.net
     udp: true
