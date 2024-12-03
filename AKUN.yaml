@@ -1,0 +1,17 @@
+proxies:
+  - name: VIDIO
+    server: quiz.staging.vidio.com
+    port: 80
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /sshkit/clash/674e8cdad4b8f/
+      headers:
+        Host: lb.vhax.net
+    udp: true
