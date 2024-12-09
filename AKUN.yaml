@@ -15,3 +15,17 @@ proxies:
       headers:
         Host: lb.vhax.net
     udp: true
+  - name: Howdy
+    type: vless
+    server: quiz.staging.vidio.com
+    port: 80
+    uuid: fd06fdb0-b5d5-11ef-9a8e-1239d0255272
+    cipher: auto
+    skip-cert-verify: true
+    tls: false
+    servername: sg3.socifiles.com
+    ws-opts:
+        path: /vlws
+        headers:
+           Host: sg3.socifiles.com
+    udp: true
