@@ -11,7 +11,7 @@ proxies:
     servername: 
     network: ws
     ws-opts:
-      path: /sshkit/open/67640276aa50f/
+      path: /sshkit/openwrt/676e53cad19cd/
       headers:
         Host: lb.vhax.net
     udp: true
