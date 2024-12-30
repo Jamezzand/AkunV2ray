@@ -1,5 +1,5 @@
 proxies:
-  - name: VIDIO 6/1
+  - name: VIDIO 6/01
     server: quiz.staging.vidio.com
     port: 80
     type: vmess
