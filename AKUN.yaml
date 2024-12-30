@@ -1,5 +1,5 @@
 proxies:
-  - name: VIDIO OPENWRT 26
+  - name: VIDIO 6/1
     server: quiz.staging.vidio.com
     port: 80
     type: vmess
@@ -11,7 +11,24 @@ proxies:
     servername: 
     network: ws
     ws-opts:
-      path: /sshkit/openwrt/676e53cad19cd/
+      path: /sshkit/Tyuti/67728804b2923/
+      headers:
+        Host: lb.vhax.net
+    udp: true
+  - name: TSEL 0P0K 6/1
+    server: app-stg.gopay.co.id
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    sni: lb.vhax.net
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /sshkit/Tyuti/67728804b2923/
       headers:
         Host: lb.vhax.net
     udp: true
